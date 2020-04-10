@@ -19,6 +19,7 @@ Its training accuracy can be increased much by more iteration, However it may no
 
 **Visualizing data**: 
 Below is a plot showing the number of bike riders over the first 10 days or so in the data set. (Some days don't have exactly 24 entries in the data set, so it's not exactly 10 days.) You can see the hourly rentals here. 
+
 ![Data plot](assets/10_days_data.JPG)
 
 **Prediction**: 
@@ -29,6 +30,7 @@ Our model is absolutely working fantastic in outer training data, However we can
 Here we could see how losses decreases for the number of iterations.
 
 ![losses](assets/losses.png)
+
 **Further Imporovements**: 
 some overfitting can be mitigated by having more data for train, applying regularization techniques, running less epochs or taking lower learning rate.
 
